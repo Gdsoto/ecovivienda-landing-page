@@ -1,0 +1,42 @@
+.wrapper {
+  max-width: 1280px;
+  margin: 40px auto;
+}
+
+.title {
+  font-size: 24px;
+  color: #434343;
+  position: relative;
+  margin-bottom: 40px;
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #b71050;
+    height: 4px;
+    box-sizing: border-box;
+    width: 60px;
+  }
+}
+
+.container_info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  text-align: justify;
+}
+
+.videos {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .wrapper {
+    margin: 20px;
+  }
+
+  .container_info {
+    grid-template-columns: 1fr;
+  }
+}
