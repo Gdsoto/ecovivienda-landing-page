@@ -1,12 +1,11 @@
 // Components
+import Home from '../components/Home/Home';
 import Layout from '../components/Layout/Layout';
 
-export default function Home() {
+export default function Main() {
   return (
-    <>
-      <Layout>
-        <div>Child</div>
-      </Layout>
-    </>
+    <Layout>
+      <Home />
+    </Layout>
   );
 }
