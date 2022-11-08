@@ -16,7 +16,7 @@ const Contact = () => {
             <label for="lname">Apellidos</label>
             <input type="text" id="lname" name="lastname" placeholder="Ingresa tu apellido" className={styles.inputs} />
 
-            <label for="email">Apellidos</label>
+            <label for="email">Correo</label>
             <input type="text" id="email" name="lastname" placeholder="ejemplo@gmail.com" className={styles.inputs} />
 
             <label for="teléfono">Teléfono</label>
