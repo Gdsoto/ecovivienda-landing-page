@@ -1,0 +1,92 @@
+.header_section {
+  background-color: rgb(12, 94, 202);
+}
+
+.header_top {
+  margin: auto;
+  max-width: 1280px;
+  height: 40px;
+}
+
+.navbar {
+  width: 100%;
+  margin: auto;
+  padding: 1px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 10px;
+  position: relative;
+  top: 0;
+  text-decoration: none;
+}
+
+.navbar ul {
+  display: flex;
+  margin: 0 auto;
+}
+
+/* Tamaño del logo */
+.logo {
+  width: 120px;
+  cursor: pointer;
+  top: 0;
+  text-decoration: none;
+  display: block;
+  margin-left: 40px;
+}
+
+.navbar > ul > li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 15px;
+  position: relative;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.navbar > li > a img {
+  width: 22px;
+  margin: 0 -19px;
+}
+
+.sticky {
+  position: sticky;
+  z-index: 1100;
+  text-decoration: none;
+  font-weight: 400;
+  background: rgba(255, 255, 255);
+  box-shadow: 2px 2px 5px #9c9c9c;
+}
+
+.navbar > ul > li > a {
+  text-decoration: none;
+  color: #11b5ea;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  padding: 10px 10px;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 300ms;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.navbar > ul > li > a:hover {
+  background: #11b5ea;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/*Media Queries*/
+@media (max-width: 767px) {
+  .header_top {
+    margin: 0 20px;
+  }
+}
